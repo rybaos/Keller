@@ -89,7 +89,7 @@
          "name":"floor",
          "opacity":1,
          "type":"tilelayer",
-         "visible":false,
+         "visible":true,
          "width":12,
          "x":0,
          "y":0
@@ -107,7 +107,7 @@
          "y":0
         }, 
         {
-         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 285, 286, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 253, 254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 285, 286, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+         "data":[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1613, 1613, 1613, 1615, 0, 599, 0, 1665, 532, 533, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1681, 564, 565, 0, 0, 1677, 0, 0, 1528, 0, 1153, 0, 1697, 1051, 1032, 0, 0, 1693, 0, 0, 1528, 0, 1169, 0, 1713, 0, 464, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1497, 0, 253, 254, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 285, 286, 0, 1677, 0, 0, 0, 0, 1677, 0, 0, 0, 0, 0, 0, 1693, 0, 253, 254, 0, 1693, 0, 1235, 1236, 1237, 0, 0, 0, 0, 285, 286, 0, 1235, 1236, 1237, 0, 1076, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
          "height":12,
          "id":4,
          "name":"M\u00f6bel",
@@ -129,7 +129,7 @@
          "x":0,
          "y":0
         }],
- "nextlayerid":15,
+ "nextlayerid":16,
  "nextobjectid":1,
  "orientation":"orthogonal",
  "renderorder":"right-down",
@@ -292,6 +292,64 @@
                          "value":true
                         }]
                 }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":1025,
+         "image":"garden1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"garden1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tiles":[
+                {
+                 "id":128,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }, 
+                {
+                 "id":144,
+                 "properties":[
+                        {
+                         "name":"collides",
+                         "type":"bool",
+                         "value":true
+                        }]
+                }],
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":1281,
+         "image":"tilesets_deviant_milkian_1.png",
+         "imageheight":512,
+         "imagewidth":512,
+         "margin":0,
+         "name":"tilesets_deviant_milkian_1",
+         "spacing":0,
+         "tilecount":256,
+         "tileheight":32,
+         "tilewidth":32
+        }, 
+        {
+         "columns":16,
+         "firstgid":1537,
+         "image":"house_inside.png",
+         "imageheight":448,
+         "imagewidth":512,
+         "margin":0,
+         "name":"house_inside",
+         "spacing":0,
+         "tilecount":224,
+         "tileheight":32,
          "tilewidth":32
         }],
  "tilewidth":32,
